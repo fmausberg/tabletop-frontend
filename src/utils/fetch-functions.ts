@@ -1,4 +1,4 @@
-import type { User } from "../types/user";
+//import type { User } from "../types/user";
 
 export async function fetchLoginData(userData: {
   email: string;

@@ -3,7 +3,7 @@
 import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
-import LoadingSpinner from "../../../components/ui/spinnig-loading-states";
+import LoadingSpinner from "../../../components/ui/spinning-loading-states";
 import Button from "../../../components/ui/button";
 import { useAuth } from "../../../context/AuthContext";
 
