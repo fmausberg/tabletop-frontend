@@ -1,0 +1,14 @@
+# /myfinances-frontend/docker-compose.yml
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
+    container_name: myfinances-frontend
+    env_file:
+      - .env
+      
+# EOF /myfinances-frontend/docker-compose.yml
