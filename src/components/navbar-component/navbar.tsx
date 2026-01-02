@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="text-xl font-bold text-navbar-text">
-            MY-FINANCES
+            FPM TABLETOP
           </Link>
 
           {/* Desktop Menu */}
@@ -40,35 +40,12 @@ const Navbar = () => {
                 >
                   Dashboard
                 </Link>
-                <Link
-                  href="/home/user/partner"
-                  className="hover:text-navbar-hover text-navbar-text"
-                >
-                  Partner
-                </Link>
-                <Link
-                  href="/home/user/transactions"
-                  className="hover:text-navbar-hover text-navbar-text"
-                >
-                  Transactions
-                </Link>
-                <Link
-                  href="/home/user/buckets"
-                  className="hover:text-navbar-hover text-navbar-text"
-                >
-                  Buckets
-                </Link>
               </>
             )}
 
             {isAdminLoggedIn && (
               <>
-                <Link
-                  href="/admin/categories"
-                  className="hover:text-navbar-hover text-navbar-text"
-                >
-                  Partner
-                </Link>
+
               </>
             )}
           </div>

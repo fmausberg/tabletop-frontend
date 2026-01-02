@@ -5,9 +5,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Linke Spalte */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-footer-text">MY-FINANCES</h3>
+            <h3 className="text-xl font-bold mb-4 text-footer-text">FPM TABLETOP</h3>
             <p className="text-sm text-footer-text">
-              Finance Management
+              Tabletop Simulator
             </p>
           </div>
 
@@ -16,7 +16,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-footer-text">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="/home" className="hover:text-footer-hover text-footer-text">Home</a></li>
-              <li><a href="/about" className="hover:text-footer-hover text-footer-text">About</a></li>
               <li><a href="/impressum" className="hover:text-footer-hover text-footer-text">Impressum</a></li>
             </ul>
           </div>
